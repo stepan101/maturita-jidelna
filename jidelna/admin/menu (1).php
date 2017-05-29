@@ -1,0 +1,1 @@
+<a href="index.php?p=zmena" > ZMÌNA OBÌDÙ</a>|<a href="index.php?p=odhlasene" >ODHLÁŠENÉ OBÌDY</a>|<a href="index.php?p=dvojka" > OBÌD è.2</a>|<a href="index.php?p=import" > IMPORT UŽIVATELÙ</a> 

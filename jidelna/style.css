@@ -1,0 +1,312 @@
+  body {
+      background: #F2F2F2; 
+      font-family: 'Josefin Sans', sans-serif;
+      padding: 0px;
+      margin: 0px auto; 
+    }
+  
+ /*  Hlavièka - Vr‘ek*/
+  #hlavicka {
+      height: 134px;
+      background-image:url("obrazky/hlava.png");
+      background-repeat: repeat-x;
+      color: white;
+      text-align:center;
+      position:relative;
+      
+      }
+
+  #hlavicka a{
+      font-size:20px;
+      color:white;
+      text-decoration:none;
+      padding-left:40px;
+      padding-right:40px;
+     
+       }
+       
+    #hlavicka a:hover{ 
+    color: #CCCCCC;
+    -webkit-transition: all 350ms;
+	-moz-transition: all 350ms;
+	-o-transition: all 350ms;
+	-ms-transition: all 350ms;
+	transition: all 350ms;
+    }  
+/* Blok, ve kterém je logo a menu s odkazy */       
+   #hlava{
+    position: relative;
+    height: 134px;
+    width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+   }   
+ 
+   #menu{
+      position: relative; 
+      float:left;
+      width: 718px; 
+      padding-top:33px;
+   }
+  
+  
+   #logo{
+      position: relative; 
+      float:right;    
+      width: 332px; 
+      
+   }  
+   #logo a{
+       padding:0px;
+    }
+  /* Støed - obsah a pøihlá‘ení */  
+   #stred {
+      position: relative; 
+      width: 1050px; 
+      height: 500px;
+      clear:none;
+      margin: 0px auto;
+      margin-top: 70px;
+      font-size: 20px;
+      }      
+   #vlevo {
+      position: relative; 
+      float:left; 
+      clear:left;
+      width: 650px; 
+      height: 500px;
+      text-align:left; 
+      
+      }  
+    
+th{     text-align:left; 
+        background-color:#29ABE2;
+        color:white;
+        
+        
+}
+td{
+        
+        color:black;
+       
+}
+tr{     
+        
+        color:black;
+}
+ 
+        
+    #vpravo {
+      position: relative; 
+      float:right;
+      clear:right;
+      width: 400px; 
+      height: 500px ;
+      background-image:url('obrazky/vpravo.png');
+      background-repeat: no-repeat;
+    
+      }
+  
+   
+   
+    #formular {
+     position: absolutes;
+     padding:51px 41px 21px 53px;
+     color:white;
+     font-size: 30px;
+    } 
+    #formular a{
+      font-size:20px;
+      color:white;
+      text-decoration:none;
+     } 
+    
+    #formular a:hover{ 
+    color: #CCCCCC;
+    -webkit-transition: all 350ms;
+	-moz-transition: all 350ms;
+	-o-transition: all 350ms;
+	-ms-transition: all 350ms;
+	transition: all 350ms;
+    
+    }
+    
+  /* FORMULÁØOVÉ PRVKY */ 
+    fieldset {
+      border: 0;
+      margin: 0;
+      padding: 0;
+  }
+    
+     input {
+      
+      margin-top: 31px;
+      padding-left: 20px;
+}
+   .form input {
+      background-image:url('obrazky/formular.png');
+      width: 289px; 
+      height: 58px;
+      border: 0px;
+      font: 22px "Josefin Sans", sans-serif;
+   }  
+   .tlac .tlacitko {
+    background-image:url('obrazky/tlacitko.png');
+      width: 156px; 
+      height: 60px;
+      border: 0px;
+      font: 28px "Josefin Sans", sans-serif;
+      color:white;
+      float:right;
+      padding-right: 21px;
+   }  
+         
+h5  {
+    font-size: 22px;
+    color:#8CC63F; 
+
+
+}
+   
+    label{
+      width: 550px;
+
+}      
+    input[type="radio"]{
+      display:none;
+}
+    input[type="radio"] + label
+  {
+      background-image:url('obrazky/radio.png');
+      height: 23px;
+      width: 23px;
+      display:inline-block;
+      padding: 0 0 0 0px;
+}   
+    input[type="radio"]:checked + label
+{
+      background-image:url('obrazky/radio1.png');
+      height: 23px;
+      width: 23px;
+      display:inline-block;
+      padding: 0 0 0 0px;
+} 
+    input[type="checkbox"]{
+      display:none;
+}     
+
+    input[type="checkbox"] + label
+  {
+      background-image:url('obrazky/checkbox1.png');
+      height: 19px;
+      width: 22px;
+      display:inline-block;
+      padding: 0 0 0 0px;
+    }  
+ 
+    input[type="checkbox"]:checked + label
+{
+      background-image:url('obrazky/checkbox.png');
+      height: 19px;
+      width: 22px;
+      display:inline-block;
+      padding: 0 0 0 0px;
+} 
+ 
+   .pass input[type="password"] {
+      
+      width: 289px; 
+      height: 30px;
+      border: 0px;
+      font: 18px "Josefin Sans", sans-serif;
+      margin-top: 20px;
+      margin-left: 60px;
+      padding-left: 10px;
+}
+    .pass input[type="text"] {
+      
+      width: 289px; 
+      height: 30px;
+      border: 0px;
+      font: 18px "Josefin Sans", sans-serif;
+      margin-top: 10px;
+      margin-left: 20px;
+      padding-left: 10px;
+      
+}
+.pass textarea{
+      
+      width: 289px; 
+      height: 150px;
+      border: 0px;
+      font: 18px "Josefin Sans", sans-serif;
+      margin-top: 10px;
+      margin-left: 20px;
+      padding-left: 10px;
+      
+}
+h3 {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+ h4{
+   font-size: 20px;
+   margin-top: 10px;
+   margin-bottom:0px;
+   color:White;
+   
+   }     
+.odes{
+    background-color:#8CC63F;
+      width: 90px; 
+      height: 40px;
+      border: 0px;
+      font: 18px "Josefin Sans", sans-serif;
+      color:white;
+      text-align:center;
+      margin-left: 350px;
+      padding-left: 10px;
+   } 
+   #vlevo a{
+      font-size:20px;
+      text-decoration:none;
+      color:black;
+     } 
+    
+    #vlevo a:hover{ 
+    color: #CCCCCC;
+    -webkit-transition: all 350ms;
+	-moz-transition: all 350ms;
+	-o-transition: all 350ms;
+	-ms-transition: all 350ms;
+	transition: all 350ms;
+    
+    }
+    
+     h6{
+   font-size: 17px;
+   margin-top: 5px;
+   margin-bottom:0px;
+     
+   }
+   
+ /* Pøepínání */
+.rozbalovac {display: none;}
+input[type=checkbox]:checked + .rozbalovaci .obsah {display: block}
+.rozbalovaci > .obsah {display: none}
+
+/* Styl pøepínátka */
+.rozbalovaci > label {
+  display: block; cursor: help;  padding: .5em
+}
+
+
+.rozbalovaci > label:before {
+  content:url("obrazky/up.png");padding: 0 .3em;padding-top:10px; margin-right: .5em; border-radius: 3px
+}
+
+input[type=checkbox]:checked + .rozbalovaci > label:before {content: url("obrazky/down.png")}
+
+
+/* Nepodstatný styl „obsahu“ */
+.rozbalovaci > .obsah {background: #FFF; padding: 1em}

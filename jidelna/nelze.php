@@ -1,0 +1,1 @@
+Špatné pøihlašovací jméno nebo heslo.

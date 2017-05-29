@@ -1,0 +1,78 @@
+ body {
+      background: #F2F2F2; 
+      font-family: 'Josefin Sans', sans-serif;
+      padding: 0px;
+      margin: 0px auto; 
+    }
+  
+  
+    #hlavicka {
+      height: 134px;
+      color: white;
+      text-align:center;
+      position:relative;
+      
+      }
+    
+    
+     #stred {
+      height: 400px;
+      width: 404px;
+      background-image:url("../obrazky/vpravo.png");
+      margin: 50px auto auto auto; 
+      color: white;
+      text-align:center;
+      position:relative;
+      
+      }
+      #formular {
+     position: absolutes;
+     padding:51px 41px 21px 53px;
+     color:white;
+     font-size: 30px;
+    } 
+    #formular a{
+      font-size:20px;
+      color:white;
+      text-decoration:none;
+     } 
+    
+    #formular a:hover{ 
+    color: #CCCCCC;
+    -webkit-transition: all 350ms;
+	-moz-transition: all 350ms;
+	-o-transition: all 350ms;
+	-ms-transition: all 350ms;
+	transition: all 350ms;
+    
+    }
+    
+  /* FORMULÁØOVÉ PRVKY */ 
+    fieldset {
+      border: 0;
+      margin: 0;
+      padding: 0;
+  }
+    
+     input {
+      
+      margin-top: 31px;
+      padding-left: 20px;
+}
+   .form input {
+      background-image:url('../obrazky/formular.png');
+      width: 289px; 
+      height: 58px;
+      border: 0px;
+      font: 22px "Josefin Sans", sans-serif;
+   }  
+   .tlac .tlacitko {
+    background-image:url('../obrazky/tlacitko.png');
+      width: 156px; 
+      height: 60px;
+      border: 0px;
+      font: 28px "Josefin Sans", sans-serif;
+      color:white;
+      float:right;
+      padding-right: 21px;
+   }  
